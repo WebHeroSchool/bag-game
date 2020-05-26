@@ -41,7 +41,6 @@ function openGame (level) {
             switch (levelCondition[level]) {
                 case 3:
                     wrapper.classList.add('simple');
-                    console.log(3);
                     break;
                 case 6:
                     wrapper.className = 'wrapper middle';
