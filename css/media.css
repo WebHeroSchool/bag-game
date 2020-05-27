@@ -1,14 +1,27 @@
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
     .container {
-        min-width: 1250px;
+        min-width: 1300px;
+    }
+    .middle { 
+        width: 50%;
     }
 
-    .middle { 
+    .hard {
+        width: 76%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        min-width: 1100px;
+    }
+
+    .simple {
         width: 60%;
     }
 
     .hard {
-        width: 90%;
+        width: 87%;
     }
 
     .footer__img {
@@ -16,34 +29,39 @@
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .container {
-        height: 100%;
-        min-width: 950px;
-        padding-right: 70px;
+        min-width: 1000px;
+    }
+
+    .cards {
+        height: 70%;
     }
 
     .simple, .middle {
-        width: 70%;
-    }
-
-    .hard {
-        width: 85%;
-        height: 55%;
+        width: 60%;
     }
 
     .footer__img {
         display: none;
     }
 
+    .footer__button {
+        margin-left: 70px;
+    }
+
+    .hard {
+        width: 83%;
+    }
+
     .hard .card__wrap {
-        width: 150px;
-        height: 240px;
+        width: 140px;
+        height: 225px;
     }
 
     .hard .img {
-        width: 160px;
-        height: 250px;
+        width: 146px;
+        height: 232px;
     }
 }
 
@@ -52,37 +70,35 @@
         min-width: 760px;
     }
 
+    .header {
+        padding-top: 50px;
+    }
+
+    .main__levels {
+        margin-left: 90px;
+
     .simple {
-        width: 85%;
+        width: 70%;
     }
 
     .hard {
         width: 90%;
-        height: 45%;
+        height: 70%;
     }
 
     .middle {
-        width: 85%;
+        width: 60%;
+        height: 70%;
     }
 
-    .middle .img {
-        width: 190px;
-        height: 310px;
+    .card__wrap, .hard .card__wrap {
+        width: 120px;
+        height: 205px;
     }
 
-    .middle .card__wrap {
-        width: 180px;
-        height: 300px;
-    }
-
-    .hard .card__wrap {
+    .img, .hard .img {
         width: 130px;
-        height: 190px;
-    }
-
-    .hard .img {
-        width: 130px;
-        height: 210px;
+        height: 215px;
     }
 }
 
@@ -91,50 +107,32 @@
         min-width: 500px;
     }
 
+    .cards {
+        margin-top: 70px;
+    }
+
     .simple {
-        width: 50%;
-        height: 90%;
-        display: flex;
-        justify-content: center;
+        height: 40%;
+        width: 55%;
     }
 
-    .simple .card__wrap {
-        width: 170px;
-        height: 270px;
+    .card__wrap, .hard .card__wrap {
+        width: 72px;
+        height: 112px;
     }
 
-    .simple .img {
-        width: 180px;
-        height: 280px;
+    .img, .hard .img {
+        width: 80px;
+        height: 120px;
     }
 
     .middle {
-        height: 90%;
-        width: 75%;
-    }
-
-    .middle .card__wrap {
-        width: 180px;
-        height: 280px;
-    }
-
-    .middle .img {
-        width: 190px;
-        height: 290px;
+        height: 40%;
+        width: 55%;
     }
 
     .hard {
-        width: 60%;
+        width: 40%;
         height: 95%;
-    }
-
-    .hard .card__wrap {
-        width: 120px;
-        height: 180px;
-    }
-
-    .hard .img {
-        width: 130px;
-        height: 190px;
     }
 }
