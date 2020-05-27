@@ -5,10 +5,10 @@
     color: #FFFFFF;
     background-image: url(../img/Background.png);
     background-repeat: no-repeat;
+    background-size: cover;
     max-width: 1440px;
     min-width: 500px;
     min-height: 1024px;
-    background-size: cover;
 }
 
 .header {
