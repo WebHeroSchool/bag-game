@@ -77,11 +77,7 @@
     }
 
     .main__levels {
-        height: 100%;
-    }
-
-    .footer {
-        margin-top: -50px;
+        margin-left: 90px;
     }
 
     .simple {
@@ -115,20 +111,8 @@
         max-height: 750px;
     }
 
-    .header {
-        padding: 30px 40px 15px 80px;
-    }
-
-    .main__levels {
-        margin-left: 80px;
-    }
-
-    .footer {
-        margin-top: -70px;
-    }
-
     .cards {
-        height: 100%;
+        margin-top: 70px;
     }
 
     .simple {
@@ -147,7 +131,7 @@
     }
 
     .middle {
-        height: 40%;
+        height: 60%;
         width: 55%;
     }
 
