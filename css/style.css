@@ -6,7 +6,7 @@
     background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     max-width: 1440px;
-    min-width: 500px;
+    min-width: 320px;
     min-height: 1024px;
     background-size: cover;
     overflow: hidden;
