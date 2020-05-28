@@ -47,7 +47,7 @@
     }
 
     .footer__button {
-        margin-left: 70px;
+        margin-left: 90px;
     }
 
     .hard {
@@ -108,6 +108,22 @@
         min-width: 500px;
     }
 
+    .header {
+        padding: 50px 30px 40px 50px;
+    }
+
+    .main {
+        padding-bottom: 90px;
+    }
+
+    .main__levels {
+        margin-left: 50px;
+    }
+
+    .footer__button {
+        margin-left: 60px;
+    }
+
     .cards {
         margin-top: 100px;
     }
@@ -137,3 +153,4 @@
         height: 110%;
     }
 }
+
