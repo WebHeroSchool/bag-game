@@ -77,7 +77,11 @@
     }
 
     .main__levels {
-        margin-left: 90px;
+        height: 100%;
+    }
+
+    .footer {
+        margin-top: -50px;
     }
 
     .simple {
@@ -86,12 +90,11 @@
 
     .hard {
         width: 90%;
-        height: 70%;
+        height: 90%;
     }
 
     .middle {
         width: 60%;
-        height: 70%;
     }
 
     .card__wrap, .hard .card__wrap {
@@ -112,8 +115,20 @@
         max-height: 750px;
     }
 
+    .header {
+        padding: 30px 40px 15px 80px;
+    }
+
+    .main__levels {
+        margin-left: 80px;
+    }
+
+    .footer {
+        margin-top: -70px;
+    }
+
     .cards {
-        margin-top: 70px;
+        height: 100%;
     }
 
     .simple {
