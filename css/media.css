@@ -68,8 +68,7 @@
 @media (max-width: 760px) {
     .container {
         min-width: 760px;
-        min-height: 740px;
-        max-height: 750px;
+        min-height: 900px;
     }
 
     .header {
@@ -107,8 +106,6 @@
 @media (max-width: 500px) {
     .container {
         min-width: 500px;
-        min-height: 740px;
-        max-height: 750px;
     }
 
     .cards {
