@@ -1,6 +1,6 @@
 @media (max-width: 1300px) {
     .container {
-        min-width: 1300px;
+        max-width: 1300px;
     }
     .middle { 
         width: 50%;
@@ -13,7 +13,7 @@
 
 @media (max-width: 1100px) {
     .container {
-        min-width: 1100px;
+        max-width: 1100px;
     }
 
     .simple {
@@ -31,7 +31,7 @@
 
 @media (max-width: 1000px) {
     .container {
-        min-width: 1000px;
+        max-width: 1000px;
     }
 
     .cards {
@@ -67,7 +67,7 @@
 
 @media (max-width: 760px) {
     .container {
-        min-width: 760px;
+        max-width: 760px;
         min-height: 900px;
     }
 
@@ -105,11 +105,11 @@
 
 @media (max-width: 500px) {
     .container {
-        min-width: 500px;
+        max-width: 500px;
     }
 
     .header {
-        padding: 50px 30px 40px 50px;
+        padding: 50px 150px 40px 80px;
     }
 
     .main {
@@ -153,66 +153,3 @@
         height: 110%;
     }
 }
-
-/* @media (max-width: 320px) {
-    .container {
-        min-width: 320px;
-    }
-
-    .cards {
-        margin-top: 0;
-    }
-
-    .header {
-        padding: 60px 2px 40px 30px;
-    }
-
-    .header__title {
-        font-size: 50px;
-    }
-
-    .main {
-        padding-bottom: 80px;
-    }
-
-    .main__levels {
-        margin-left: 25px;
-        font-size: 45px;
-    }
-
-    .button {
-        padding: 20px 45px 20px 45px;
-        white-space: nowrap;
-    }
-
-    .footer__button {
-        margin-left: 30px;
-    }
-
-    .button {
-        background-color: #D62B2E;
-        color: #FFFFFF;
-        padding: 20px 45px 20px 45px;
-        white-space: nowrap;
-        font-size: 26px;
-        line-height: 37px;
-        font-family: 'Roboto';
-        font-weight: bold;
-        cursor: pointer;
-        outline: none;
-        border: 2px solid #D62B2E;
-        border-radius: 7px;
-    }
-
-    .simple {
-        width: 85%;
-    }
-
-    .middle {
-        width: 80%;
-    }
-
-    .hard {
-        width: 60%;
-    }
-} */
