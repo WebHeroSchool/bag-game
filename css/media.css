@@ -1,6 +1,6 @@
 @media (max-width: 1300px) {
     .container {
-        min-width: 1300px;
+        max-width: 1300px;
     }
     .middle { 
         width: 50%;
@@ -13,7 +13,7 @@
 
 @media (max-width: 1100px) {
     .container {
-        min-width: 1100px;
+        max-width: 1100px;
     }
 
     .simple {
@@ -31,7 +31,7 @@
 
 @media (max-width: 1000px) {
     .container {
-        min-width: 1000px;
+        max-width: 1000px;
     }
 
     .cards {
@@ -67,7 +67,7 @@
 
 @media (max-width: 760px) {
     .container {
-        min-width: 760px;
+        max-width: 760px;
         min-height: 900px;
     }
 
@@ -105,11 +105,11 @@
 
 @media (max-width: 500px) {
     .container {
-        min-width: 500px;
+        max-width: 500px;
     }
 
     .header {
-        padding: 50px 30px 40px 50px;
+        padding: 50px 150px 40px 80px;
     }
 
     .main {
